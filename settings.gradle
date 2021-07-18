@@ -1,0 +1,3 @@
+include ':coroutine-mvi-lib'
+include ':app'
+rootProject.name = "coroutine-mvi"
