@@ -12,12 +12,7 @@ import com.coroutinemvi.databinding.ActivityMainBinding
 import com.example.coroutine_mvi_lib.MviReducer
 import com.example.coroutine_mvi_lib.MviView
 import com.example.coroutine_mvi_lib.reduceOnClick
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.MainScope
-import kotlinx.coroutines.channels.BufferOverflow
 import kotlinx.coroutines.flow.*
-import kotlinx.coroutines.launch
 
 class MainActivity : AppCompatActivity(), MviView<MainAction, MainState> {
     private val binding by viewBinding(ActivityMainBinding::bind)
